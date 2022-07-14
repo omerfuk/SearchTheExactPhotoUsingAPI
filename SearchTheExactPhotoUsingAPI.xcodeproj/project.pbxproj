@@ -14,6 +14,7 @@
 		DE21020B2880196C00BF5061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE21020A2880196C00BF5061 /* Assets.xcassets */; };
 		DE21020E2880196C00BF5061 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE21020C2880196C00BF5061 /* LaunchScreen.storyboard */; };
 		DE21021828801D4200BF5061 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE21021728801D4200BF5061 /* Model.swift */; };
+		DEDC84D128809C3A0003076C /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDC84D028809C3A0003076C /* ImageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DE21020D2880196C00BF5061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE21020F2880196C00BF5061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE21021728801D4200BF5061 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DEDC84D028809C3A0003076C /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				DE2102012880196A00BF5061 /* AppDelegate.swift */,
 				DE2102032880196A00BF5061 /* SceneDelegate.swift */,
 				DE2102052880196A00BF5061 /* ViewController.swift */,
+				DEDC84D028809C3A0003076C /* ImageCollectionViewCell.swift */,
 				DE2102072880196A00BF5061 /* Main.storyboard */,
 				DE21020A2880196C00BF5061 /* Assets.xcassets */,
 				DE21020C2880196C00BF5061 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE21021828801D4200BF5061 /* Model.swift in Sources */,
+				DEDC84D128809C3A0003076C /* ImageCollectionViewCell.swift in Sources */,
 				DE2102062880196A00BF5061 /* ViewController.swift in Sources */,
 				DE2102022880196A00BF5061 /* AppDelegate.swift in Sources */,
 				DE2102042880196A00BF5061 /* SceneDelegate.swift in Sources */,
