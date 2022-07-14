@@ -13,6 +13,7 @@
 		DE2102092880196A00BF5061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2102072880196A00BF5061 /* Main.storyboard */; };
 		DE21020B2880196C00BF5061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE21020A2880196C00BF5061 /* Assets.xcassets */; };
 		DE21020E2880196C00BF5061 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE21020C2880196C00BF5061 /* LaunchScreen.storyboard */; };
+		DE21021828801D4200BF5061 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE21021728801D4200BF5061 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DE21020A2880196C00BF5061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE21020D2880196C00BF5061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE21020F2880196C00BF5061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE21021728801D4200BF5061 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DE21020A2880196C00BF5061 /* Assets.xcassets */,
 				DE21020C2880196C00BF5061 /* LaunchScreen.storyboard */,
 				DE21020F2880196C00BF5061 /* Info.plist */,
+				DE21021728801D4200BF5061 /* Model.swift */,
 			);
 			path = SearchTheExactPhotoUsingAPI;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE21021828801D4200BF5061 /* Model.swift in Sources */,
 				DE2102062880196A00BF5061 /* ViewController.swift in Sources */,
 				DE2102022880196A00BF5061 /* AppDelegate.swift in Sources */,
 				DE2102042880196A00BF5061 /* SceneDelegate.swift in Sources */,
